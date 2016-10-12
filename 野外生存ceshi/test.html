@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="favicon.ico" rel="shortcut icon" type="x-icon">
+    <title>野外生存大测试</title>
+<meta name="keywords" content="">
+<meta name="description" content="">
+<meta name="lanmu" content="">
+<meta name="filepath" content="zhuanti-2016dswzd">
+<META name="catalog" content="2016dswzd">
+    <meta name="renderer" content="webkit">
+    <meta content='target-densitydpi=device-dpi, width=640' name='viewport'>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+    <meta name="format-detection" content="telephone=no">
+    <link href="css.css" rel="stylesheet" type="text/css" />
+     <link rel="stylesheet" href="animate.css">
+    <script type="text/javascript" src="jquery-1.8.3.js"></script>
+    <style type="text/css">
+        .ys {
+            color: #d30101;
+        }
+		.tp{margin:0px auto;
+		text-align:center;}
+    </style>
+   
+    <script>
+        /*不同分辨率手机加载*/
+        var userScalable = "no";
+        var ins = "";
+        (function () {
+            if (window.devicePixelRatio === 1.5) {
+                userScalable = "yes";
+                ins = "initial-scale=0.5"
+            }
+            var text = "<meta content='" + ins + ", target-densitydpi=device-dpi, width=640,user-scalable=" + userScalable + "' name='viewport'>";
+            document.write(text);
+        })();
+    </script>
+</head>
+<body>
+    <div id="answer" class="w640">
+        <header>
+            <div class="hm_icon"></div>
+            <div class="title">
+  
+            </div>
+        </header>
+        <div id="q1">
+            <div class="content">
+                <p class="subject_t"><div class="mb_10"><span class="c_03">1</span><span class="c_04">/10</span></div>野外求生最要紧的任务是先确定方向。而且野外确定方向的方法很多，下面哪项是不可行的呢？
+</p>
+              <p><span><input id="rd1_1" name="rd1" type="radio" value="false"></span><label for="rd1_1">A.随身携带指南针，辨别方向我不怕</label></p>
+                <p><span><input id="rd1_2" name="rd1" type="radio" value="true"></span><label for="rd1_2">B.野外方向不重要，向着太阳一直走</label></p>
+                <p><span><input id="rd1_3" name="rd1" type="radio" value="false"></span><label for="rd1_3">C.手表时数折半对太阳，12指的是北方 </label></p>
+                <p><span><input id="rd1_4" name="rd1" type="radio" value="false"></span><label for="rd1_4">D.野外方向不重要，向着太阳一直走</label></p>
+            </div>
+            <div id="msg1" class="no_choice" style="display:none;">您还没选择！</div>
+            <div class="enter_btn"><a id="b1" href="javascript:void(0);">确定</a></div>
+        </div>
+        <div id="a1" style="display:none;">
+            <div class="content_jd">
+                <p class="c_02">答案：单纯依靠太阳确定方向并不靠谱！</p>
+                <p><font class="ys">【你知道吗】</font>野外求生，使用指南针是最简单可行的方式。北极星和北斗七星适合北半球野外探索。借用手表，将手表时针的一半对准太阳，12指的是北方。<font class="ys01">但是仅仅依靠太阳方向可能受到纬度的影响，不能定向。
+                </font></p>
+                <span id="r1" class="right" style="display:none;"></span>
+                <span id="w1" class="wrong" style="display:none;"></span>
+            </div>
+            <div class="enter_btn"><a id="next1" href="javascript:void(0);">下一题</a></div>
+        </div>
+
+        <div id="q2" style="display:none;">
+            <div class="content">
+                <p class="subject_t"><div class="mb_10"><span class="c_03">2</span><span class="c_04">/10</span></div>如果没有这些可以借助的工具或者天气阴暗，没有太阳，我们就需要结合周边的环境脱离迷路了。下面可行的方式是哪项？<p></p>
+                </p>
+              <p><span><input id="rd2_1" name="rd2" type="radio" value="false"></span><label for="rd2_1">A.顺着动物踪迹、脚印等可以走出迷路区域</label></p>
+                <p><span><input id="rd2_2" name="rd2" type="radio" value="false"></span><label for="rd2_2">B.既然不知方向，就要多多探索，找到方向</label></p>
+                <p><span><input id="rd2_3" name="rd2" type="radio" value="true"></span><label for="rd2_3">C.发送求救信息然后在原地等待救援</label></p>
+                <p><span><input id="rd2_4" name="rd2" type="radio" value="false"></span><label for="rd2_4">D.山区迷路可以向高处行进，然后身处高处不断观察</label></p>
+            </div>
+            <div id="msg2" class="no_choice" style="display:none;">您还没选择！</div>
+            <div class="enter_btn"><a id="b2" href="javascript:void(0);">确定</a></div>
+        </div>
+        <div id="a2" style="display:none;">
+            <div class="content_jd">
+                <span id="r2" style="display:none;" class="right"></span>
+                <span id="w2" style="display:none;" class="wrong"></span>
+                   <p class="c_02">求救后等待救援最安全。</p>
+                <p><font class="ys">【你知道吗】</font>顺着动物踪迹最有可能遇到野兽，更加危险；不知方向盲目探索更是危险，只会让自己更加迷失方向；山区迷路，保持体力最为重要，不要随便登高。</p>
+            </div>
+            <div class="enter_btn"><a id="next2" href="javascript:void(0);">下一题</a></div>
+        </div>
+
+        <div id="q3" style="display:none;">
+            <div class="content">
+                <p class="subject_t"><div class="mb_10"><span class="c_03">3</span><span class="c_04">/10</span></div> 野外生存最担心碰到各种野兽和有毒动物，比如说蛇。认识并小心常见毒蛇种类对野外探险必不可少。下列说法错误的是哪项？</p>
+              <p><span><input id="rd3_1" name="rd3" type="radio" value="false"></span><label for="rd3_1">A.毒蛇一般体背斑纹颜色鲜明，头部呈现三角形</label></p>
+                <p><span><input id="rd3_2" name="rd3" type="radio" value="false"></span><label for="rd3_2">B.毒蛇常常出没在潮湿的丛林，枯木树洞或者柴垛草堆中</label></p>
+                <p><span><input id="rd3_3" name="rd3" type="radio" value="true"></span><label for="rd3_3">C.毒蛇常年出没，要时刻保持警惕</label></p>
+                <p><span><input id="rd3_4" name="rd3" type="radio" value="false"></span><label for="rd3_4">D.具有扑火特性的蛇是毒蛇的可能性较大</label></p>
+            </div>
+            <div id="msg3" class="no_choice" style="display:none;">您还没选择！</div>
+            <div class="enter_btn"><a id="b3" href="javascript:void(0);">确定</a></div>
+        </div>
+
+        <div id="a3" style="display:none;">
+            <div class="content_jd">
+                   <p class="c_02">答案：选C呦！毒蛇要冬眠，常在5-9月出没</p>
+                <p><font class="ys">【你知道吗】</font>我国蛇类有160余种，其中有50多种毒蛇，含有剧毒的就有10种。上面说的毒蛇特征一定要记清</font>。</p>
+                <span id="r3" style="display:none;" class="right"></span>
+                <span id="w3" style="display:none;" class="wrong"></span>
+            </div>
+            <div class="enter_btn"><a id="next3" href="javascript:void(0);">下一题</a></div>
+        </div>
+
+        <div id="q4" style="display:none;">
+            <div class="content">
+                <p class="subject_t"><div class="mb_10"><span class="c_03">4</span><span class="c_04">/10</span></div>不仅要记清毒蛇特征，我们也要掌握一些急救措施，下列说法不符合被毒蛇咬后的行为措施是哪项？</p>
+              <p><span><input id="rd4_1" name="rd4" type="radio" value="false"></span><label for="rd4_1">A.用肥皂液、生理盐水清洗伤口</label></p>
+                <p><span><input id="rd4_2" name="rd4" type="radio" value="false"></span><label for="rd4_2">B.记清楚毒蛇样貌，或者拍照记录</label></p>
+                <p><span><input id="rd4_3" name="rd4" type="radio" value="true"></span><label for="rd4_3">C.忍住剧痛，将被咬手脚斩下</label></p>
+                <p><span><input id="rd4_4" name="rd4" type="radio" value="false"></span><label for="rd4_4">D.在伤口近心端5-10厘米处结扎</label></p>
+            </div>
+            <div id="msg4" class="no_choice" style="display:none;">您还没选择！</div>
+            <div class="enter_btn"><a id="b4" href="javascript:void(0);">确定</a></div>
+        </div>
+        <div id="a4" style="display:none;">
+            <div class="content_jd">
+                <span id="r4" style="display:none;" class="right"></span>
+                <span id="w4" style="display:none;" class="wrong"></span>
+                  <p class="c_02">答案：斩下手脚那是武侠故事，别当真！</p>
+                 <p><font class="ys">【你知道吗】</font>被毒蛇咬咬伤以后，要保持镇定，切勿惊慌失措；记住样貌是为了以后匹配毒蛇血清；结扎伤口可以减缓蛇毒侵入体内；清洗伤口可以清除部分蛇毒，很有必要。不过最要紧的赶快前往医院，寻求救助</font>。</p>
+            </div>
+            <div class="enter_btn"><a id="next4" href="javascript:void(0);">下一题</a></div>
+        </div>
+
+        <div id="q5" style="display:none;">
+            <div class="content">
+                <p class="subject_t"><div class="mb_10"><span class="c_03">5</span><span class="c_04">/10</span></div>野外求生，寻找水源是一项基本技能。没有水便无法生存，水是生命之源。下面关于人体水分的说法争取的是哪项？</p>
+                <p><span><input id="rd5_1" name="rd5" type="radio" value="false"></span><label for="rd5_1">A.人体内90%都是水分。</label></p>
+                <p><span><input id="rd5_2" name="rd5" type="radio" value="true"></span><label for="rd5_2">B.正常人平均每天需要耗水2~3升</label></p>
+                <p><span><input id="rd5_3" name="rd5" type="radio" value="false"></span><label for="rd5_3">C.人体失水20%就会造成心跳加快、血压下降</label></p>
+                <p><span><input id="rd5_4" name="rd5" type="radio" value="false"></span><label for="rd5_4">D.大量运动后需要补充大量纯水</label></p>
+            </div>
+            <div id="msg5" class="no_choice" style="display:none;">您还没选择！</div>
+            <div class="enter_btn"><a id="b5" href="javascript:void(0);">确定</a></div>
+        </div>
+        <div id="a5" style="display:none;">
+            <div class="content_jd">
+                <span id="r5" style="display:none;" class="right"></span>
+                <span id="w5" style="display:none;" class="wrong"></span>
+                   <p class="c_02">答案：我们每天需要耗水2~3升呢！</p>
+                 <p><font class="ys">【你知道吗】</font>水分占据我们身体的70%，是人类生命的第一要素。所以，失水10%就会出现脱水症状，造成血压的变化。<font class="ys01">但是我们在补充水分时，要一同补充微量元素，运动后需要补充生理盐水或者含有微量元素的饮料。</font></p>
+            </div>
+            <div class="enter_btn"><a id="next5" href="javascript:void(0);">下一题</a></div>
+        </div>
+
+        <div id="q6" style="display:none;">
+            <div class="content">
+                <p class="subject_t"><div class="mb_10"><span class="c_03">6</span><span class="c_04">/10</span></div>流落荒野，我们首先要维持体液平衡，下列哪些行为会造成体液失衡？</p>
+                <p><span><input id="rd6_1" name="rd6" type="radio" value="true"></span><label for="rd6_1">A.适量饮酒，补充水分</label></p>
+                <p><span><input id="rd6_2" name="rd6" type="radio" value="false"></span><label for="rd6_2">B.待在阴凉环境，避免被晒</label></p>
+                <p><span><input id="rd6_3" name="rd6" type="radio" value="false"></span><label for="rd6_3">C.不要进食或者尽可能减少进食</label></p>
+                <p><span><input id="rd6_4" name="rd6" type="radio" value="false"></span><label for="rd6_4">D.减少活动，多多休息</label></p>
+            </div>
+            <div id="msg6" class="no_choice" style="display:none;">您还没选择！</div>
+            <div class="enter_btn"><a id="b6" href="javascript:void(0);">确定</a></div>
+        </div>
+        <div id="a6" style="display:none;">
+            <div class="content_jd">
+                <span id="r6" style="display:none;" class="right"></span>
+                <span id="w6" style="display:none;" class="wrong"></span>
+                 <p class="c_02">答案：饮酒适得其反，会破坏体液平衡</p>
+                 <p><font class="ys">【你知道吗】</font>饮酒会加重体内器官负担，导致对水分的消耗更加严重。流落野外，要避免饮酒，保证清醒同时减少体内水分的消耗。</p>
+            </div>
+            <div class="enter_btn"><a id="next6" href="javascript:void(0);">下一题</a></div>
+        </div>
+
+        <div id="q7" style="display:none;">
+            <div class="content">
+                <p class="subject_t"><div class="mb_10"><span class="c_03">7</span><span class="c_04">/10</span></div> 不过是流落山区还是飘零海洋，或者是迷失沙漠，我们都可以利用周边的环境寻找水源，下面寻找水源的方法中错误是哪项？
+                </p>
+              <p><span><input id="rd7_1" name="rd7" type="radio" value="false"></span><label for="rd7_1">A.	在海洋上，可以通过蒸馏海水得到淡水</label></p>
+                <p><span><input id="rd7_2" name="rd7" type="radio" value="true"></span><label for="rd7_2">B.	如果没有办法，饮用少量海水也是可以的</label></p>
+                <p><span><input id="rd7_3" name="rd7" type="radio" value="false"></span><label for="rd7_3">C.	在山林，跟随食草哺乳动物可以找到水源</label></p>
+                <p><span><input id="rd7_4" name="rd7" type="radio" value="false"></span><label for="rd7_4">D. 沙漠中仙人掌等植物茎干蕴含丰富水分</label></p>
+                
+          </div>
+            <div id="msg7" class="no_choice" style="display:none;">您还没选择！</div>
+            <div class="enter_btn"><a id="b7" href="javascript:void(0);">确定</a></div>
+        </div>
+        <div id="a7" style="display:none;">
+            <div class="content_jd">
+                <span id="r7" style="display:none;" class="right"></span>
+                <span id="w7" style="display:none;" class="wrong"></span>
+                   <p class="c_02">答案：海水坚决不能饮用，会越喝越渴</p>
+                   <p><font class="ys">【你知道吗】</font>除了这些方法，利用沙漠环境下日夜温差大可以凝结水蒸气取水；植物的蒸腾作用也可以提供水分，通过塑料袋可以汲取；山谷底部地区也会有水流聚集区出现。</p>
+            </div>
+            <div class="enter_btn"><a id="next7" href="javascript:void(0);">下一题</a></div>
+        </div>
+
+        <div id="q8" style="display:none;">
+            <div class="content">
+            <p class="subject_t"><div class="mb_10"><span class="c_03">8</span><span class="c_04">/10</span></div>野外生存还需要露营，不过露营的选址很重要，下面哪项是不正确的呢？</p>
+                <p><span><input id="rd8_1" type="radio" value="false" name="rd8" /></span><label for="rd8_1">A.排水性要好</label></p>
+                <p><span><input id="rd8_2" type="radio" value="false" name="rd8" /></span><label for="rd8_2">B.地址要高</label></p>
+                <p><span><input id="rd8_3" type="radio" value="true" name="rd8" /></span><label for="rd8_3">C.靠近水源很方便</label></p>
+                <p><span><input id="rd8_4" type="radio" value="false" name="rd8" /></span><label for="rd8_4">D.地面要平坦</label></p>
+            </div>
+            <div id="msg8" class="no_choice" style="display:none;">您还没选择！</div>
+            <div class="enter_btn"><a id="b8" href="javascript:void(0);">确定</a></div>
+        </div>
+        <div id="a8" style="display:none;">
+            <div class="content_jd">
+                <span id="r8" style="display:none;" class="right"></span>
+                <span id="w8" style="display:none;" class="wrong"></span>
+                <p class="c_02">答案：露营还是要远离水源。</p>
+                 <p><font class="ys">【你知道吗】</font><font class="ys01">露营靠近水源很容易惊吓到半夜来饮水的动物，不安全；</font>如果附近有猛兽出没，可在营地旁边生一把篝火来驱赶；露营选址更要避开草地、树下，这些地方蚊虫较多。</p>
+            </div>
+            <div class="enter_btn"><a id="next8" href="javascript:void(0);">下一题</a></div>
+        </div>
+
+        <div id="q9" style="display:none;">
+            <div class="content">
+                <p class="subject_t"><div class="mb_10"><span class="c_03">9</span><span class="c_04">/10</span></div> 露营前的准备工作要充分，露营后的善后工作也要齐全。下面哪项关于露营准备和善后工作不到位？</p>
+                <p><span><input id="rd9_1" type="radio" value="false" name="rd9" /></span><label for="rd9_1">A.撤营时必须将燃火物彻底熄灭</label></p>
+                <p><span><input id="rd9_2" type="radio" value="true" name="rd9" /></span><label for="rd9_2">B.为了露营安全，可以将周围生火烧尽</label></p>
+                <p><span><input id="rd9_3" type="radio" value="false" name="rd9" /></span><label for="rd9_3">C.营地周围可以撒些草木灰和硫磺粉，避免蛇虫</label></p>
+                <p><span><input id="rd9_4" type="radio" value="false" name="rd9" /></span><label for="rd9_4">D.保护环境，垃圾废物要收走</label></p>
+            </div>
+            <div id="msg9" class="no_choice" style="display:none;">您还没选择！</div>
+            <div class="enter_btn"><a id="b9" href="javascript:void(0);">确定</a></div>
+        </div>
+        <div id="a9" style="display:none;">
+            <div class="content_jd">
+                <span id="r9" style="display:none;" class="right"></span>
+                <span id="w9" style="display:none;" class="wrong"></span>
+ <p class="c_02">答案：大范围生火不安全。
+                </p>
+                 <p>野外生火很容易造成火势不受控制，伤害自身，不可取。露营以后要把篝火熄灭，用土掩埋灰烬，还要把自己产生的垃圾废物带走，不给自然增加负担。</p>
+            </div>
+            <div class="enter_btn"><a id="next9" href="javascript:void(0);">下一题</a></div>
+        </div>
+
+        <div id="q10" style="display:none;">
+            <div class="content">
+                <p class="subject_t"><div class="mb_10"><span class="c_03">10</span><span class="c_04">/10</span></div>野外生存，如果运气不佳就会遭遇猛兽。怎么才能提升生存的几率？下面哪项是错误的？</p>
+                <p><span><input id="rd10_1" name="rd10" type="radio" value="false"></span><label for="rd10_1">A.可以直视猛兽，慢慢后退</label></p>
+                <p><span><input id="rd10_2" name="rd10" type="radio" value="true"></span><label for="rd10_2">B.遇见猛兽要转身快跑</label></p>
+                <p><span><input id="rd10_3" name="rd10" type="radio" value="false"></span><label for="rd10_3">C.遇到熊要避免直视，以免惊扰它</label></p>
+                <p><span><input id="rd10_4" name="rd10" type="radio" value="false"></span><label for="rd10_4">D.深入丛林最好结对行动</label></p>
+            </div>
+            <div id="msg2" class="no_choice" style="display:none;">您还没选择！</div>
+            <div class="enter_btn"><a id="b10" href="javascript:void(0);">确定</a></div>
+        </div>
+        <div id="a10" style="display:none;">
+            <div class="content_jd">
+                   <p class="c_02">答案：转身快跑只会让猛兽捕杀。</p>
+                <p><font class="ys">【你知道吗】</font>如果看到一只野狼，最好尽快返回营地，因为狼群可能就在附近；遇见熊要缓慢行动，杜绝其以为受到威胁；遇见野猪可以爬树避险。当然最好的还是结队行动，避免落单。</p>
+                <span id="r10" class="right" style="display:none;"></span>
+                <span id="w10" class="wrong" style="display:none;"></span>
+            </div>
+            <div class="enter_btn"><a id="next10" href="javascript:void(0);">查看结果</a></div>
+        </div>
+
+    </div>
+    <div id="score" class="w640" style="display:none;">
+        <header>
+            <div id="fs"></div>
+        </header>
+        <div style="height:180px; clear:both;"></div>
+        <div class="hm_btn">
+            <div class="btn_bg">
+            <a class="fl" href="page.html"><img src="back.png"></a>
+            <a class="fr" href="http://www.cneb.gov.cn/special/sjxw/listpage/" target="_blank"><img src="gdkp.png"></a>
+            </div></div>
+            <div class="hm_btn"> <div class="btn_bg"><a  class="button2" onclick="button2()"><img src="fxzf.png"></a></div>
+          
+      </div>
+      <div class="hm_btn"> <div class="btn_bg"><a  href=""></a></div>
+      </div>
+       <div id="mcover" onclick="weChat()" style="display:none;">
+
+      <img src="tishi.png" width="330" height="228"> </div>
+<div class="text" id="content">
+                    
+</div>
+<div style="background-color:#069;width:100%;height:70px; line-height:70px; position:absolute; bottom:0px;"><p style="text-align:center;color:#ffffff;font-size:30px;">国家应急广播网出品</p></div>
+</div>
+    <script type="text/javascript">
+        $(function () {
+            a1 = a2 = a3 = a4 = a5 = a6 = a7 = a8 = a9 = a10 = 0;
+            $("#b1").click(function () {
+                var rl1 = $('#q1 input:radio[name="rd1"]:checked').val();
+                if (rl1 == null) {
+                    $("#msg1").fadeIn(500);
+                }
+                else {
+                    setTimeout('$("#q1").fadeOut(100);', 1);
+                    setTimeout('$("#a1").fadeIn(1000);', 100);
+                    if (rl1 == "true") {
+                        a1 = 1;
+                        setTimeout('$("#r1").slideDown()', 500);
+                    }
+                    else {
+                        setTimeout('$("#w1").slideDown()', 500);
+                    }
+                }
+            });
+            $("#next1").click(function () {
+                setTimeout('$("#a1").fadeOut(100);', 1);
+                setTimeout('$("#q2").fadeIn(1000);', 100);
+            });
+
+            $("#b2").click(function () {
+                var rl2 = $('#q2 input:radio[name="rd2"]:checked').val();
+                if (rl2 == null) {
+                    $("#msg2").fadeIn(500);
+                }
+                else {
+                    setTimeout('$("#q2").fadeOut(100);', 1);
+                    setTimeout('$("#a2").fadeIn(1000);', 100);
+                    if (rl2 == "true") {
+                        a2 = 1;
+                        setTimeout('$("#r2").slideDown()', 500);
+                    }
+                    else {
+                        setTimeout('$("#w2").slideDown()', 500);
+                    }
+                }
+            });
+            $("#next2").click(function () {
+                setTimeout('$("#a2").fadeOut(100);', 1);
+                setTimeout('$("#q3").fadeIn(1000);', 100);
+            });
+
+            $("#b3").click(function () {
+                var rl3 = $('#q3 input:radio[name="rd3"]:checked').val();
+                if (rl3 == null) {
+                    $("#msg3").fadeIn(500);
+                }
+                else {
+                    setTimeout('$("#q3").fadeOut(100);', 1);
+                    setTimeout('$("#a3").fadeIn(1000);', 100);
+                    if (rl3 == "true") {
+                        a3 = 1;
+                        setTimeout('$("#r3").slideDown()', 500);
+                    }
+                    else {
+                        setTimeout('$("#w3").slideDown()', 500);
+                    }
+                }
+            });
+            $("#next3").click(function () {
+                setTimeout('$("#a3").fadeOut(100);', 1);
+                setTimeout('$("#q4").fadeIn(1000);', 100);
+            });
+
+            $("#b4").click(function () {
+                var rl4 = $('#q4 input:radio[name="rd4"]:checked').val();
+                if (rl4 == null) {
+                    $("#msg4").fadeIn(500);
+                }
+                else {
+                    setTimeout('$("#q4").fadeOut(100);', 1);
+                    setTimeout('$("#a4").fadeIn(1000);', 100);
+                    if (rl4 == "true") {
+                        a4 = 1;
+                        setTimeout('$("#r4").slideDown()', 500);
+                    }
+                    else {
+                        setTimeout('$("#w4").slideDown()', 500);
+                    }
+                }
+            });
+            $("#next4").click(function () {
+                setTimeout('$("#a4").fadeOut(100);', 1);
+                setTimeout('$("#q5").fadeIn(1000);', 100);
+            });
+
+            $("#b5").click(function () {
+                var rl5 = $('#q5 input:radio[name="rd5"]:checked').val();
+                if (rl5 == null) {
+                    $("#msg5").fadeIn(500);
+                }
+                else {
+                    setTimeout('$("#q5").fadeOut(100);', 1);
+                    setTimeout('$("#a5").fadeIn(1000);', 100);
+                    if (rl5 == "true") {
+                        a5 = 1;
+                        setTimeout('$("#r5").slideDown()', 500);
+                    }
+                    else {
+                        setTimeout('$("#w5").slideDown()', 500);
+                    }
+                }
+            });
+            $("#next5").click(function () {
+                setTimeout('$("#a5").fadeOut(100);', 1);
+                setTimeout('$("#q6").fadeIn(1000);', 100);
+            });
+
+            $("#b6").click(function () {
+                var rl6 = $('#q6 input:radio[name="rd6"]:checked').val();
+                if (rl6 == null) {
+                    $("#msg6").fadeIn(500);
+                }
+                else {
+                    setTimeout('$("#q6").fadeOut(100);', 1);
+                    setTimeout('$("#a6").fadeIn(1000);', 100);
+                    if (rl6 == "true") {
+                        a6 = 1;
+                        setTimeout('$("#r6").slideDown()', 500);
+                    }
+                    else {
+                        setTimeout('$("#w6").slideDown()', 500);
+                    }
+                }
+            });
+            $("#next6").click(function () {
+                setTimeout('$("#a6").fadeOut(100);', 1);
+                setTimeout('$("#q7").fadeIn(1000);', 100);
+            });
+
+
+            $("#b7").click(function () {
+                var rl7 = $('#q7 input:radio[name="rd7"]:checked').val();
+                if (rl7 == null) {
+                    $("#msg7").fadeIn(500);
+                }
+                else {
+                    setTimeout('$("#q7").fadeOut(100);', 1);
+                    setTimeout('$("#a7").fadeIn(1000);', 100);
+                    if (rl7 == "true") {
+                        a7 = 1;
+                        setTimeout('$("#r7").slideDown()', 500);
+                    }
+                    else {
+                        setTimeout('$("#w7").slideDown()', 500);
+                    }
+                }
+            });
+            $("#next7").click(function () {
+                setTimeout('$("#a7").fadeOut(100);', 1);
+                setTimeout('$("#q8").fadeIn(1000);', 100);
+            });
+
+
+            $("#b8").click(function () {
+                var rl8 = $('#q8 input:radio[name="rd8"]:checked').val();
+                if (rl8 == null) {
+                    $("#msg8").fadeIn(500);
+                }
+                else {
+                    setTimeout('$("#q8").fadeOut(100);', 1);
+                    setTimeout('$("#a8").fadeIn(1000);', 100);
+                    if (rl8 == "true") {
+                        a8 = 1;
+                        setTimeout('$("#r8").slideDown()', 500);
+                    }
+                    else {
+                        setTimeout('$("#w8").slideDown()', 500);
+                    }
+                }
+            });
+            $("#next8").click(function () {
+                setTimeout('$("#a8").fadeOut(100);', 1);
+                setTimeout('$("#q9").fadeIn(1000);', 100);
+            });
+
+            $("#b9").click(function () {
+                var rl9 = $('#q9 input:radio[name="rd9"]:checked').val();
+                if (rl9 == null) {
+                    $("#msg9").fadeIn(500);
+                }
+                else {
+                    setTimeout('$("#q9").fadeOut(100);', 1);
+                    setTimeout('$("#a9").fadeIn(1000);', 100);
+                    if (rl9 == "true") {
+                        a9 = 1;
+                        setTimeout('$("#r9").slideDown()', 500);
+                    }
+                    else {
+                        setTimeout('$("#w9").slideDown()', 500);
+                    }
+                }
+            });
+            $("#next9").click(function () {
+                setTimeout('$("#a9").fadeOut(100);', 1);
+                setTimeout('$("#q10").fadeIn(1000);', 100);
+            });
+
+
+            $("#b10").click(function () {
+                var r20 = $('#q10 input:radio[name="rd10"]:checked').val();
+                if (r20 == null) {
+                    $("#msg10").fadeIn(500);
+                }
+                else {
+                    setTimeout('$("#q10").fadeOut(100);', 1);
+                    setTimeout('$("#a10").fadeIn(1000);', 100);
+                   if (r20 == "true") {
+                        a10 = 1;
+                        setTimeout('$("#r10").slideDown()', 500);
+                    }
+                    else {
+                        setTimeout('$("#w10").slideDown()', 500);
+                    }
+                }
+            });
+            $("#next10").click(function () {
+                setTimeout('$("#answer").fadeOut(100);', 1);
+                setTimeout('$("#score").fadeIn(1000);', 100);
+
+                sc = a1 + a2 + a3 + a4 + a5 + a6 + a7 + a8 + a9 + a10;
+                if (sc == 0) {
+                    $('#fs').addClass("f0");
+                } else if (sc == 1) {
+                    $('#fs').addClass("f10");
+                } else if (sc == 2) {
+                    $('#fs').addClass("f20");
+                } else if (sc == 3) {
+                    $('#fs').addClass("f30");
+                } else if (sc == 4) {
+                    $('#fs').addClass("f40");
+                } else if (sc == 5) {
+                    $('#fs').addClass("f50");
+                } else if (sc == 6) {
+                    $('#fs').addClass("f60");
+                } else if (sc == 7) {
+                    $('#fs').addClass("f70");
+                } else if (sc == 8) {
+                    $('#fs').addClass("f80");
+                } else if (sc == 9) {
+                    $('#fs').addClass("f90");
+                } else if (sc == 10) {
+                    $('#fs').addClass("f100");
+                }
+            });
+        });
+    </script>
+<script type="text/javascript">
+setTimeout(function(){
+		$('#fs').addClass('animated fadeInDown').fadeIn();
+	},50);
+function button2(){
+
+$("#mcover").css("display","block")  // 分享给好友圈按钮触动函数
+
+}
+
+function weChat(){
+
+$("#mcover").css("display","none");  // 点击弹出层，弹出层消失
+
+}
+
+$(function(){
+
+   setTimeout(function () {
+
+        $("#mcover").show();}, 6000);   // 6000时毫秒是弹出层
+
+setTimeout(function () {
+
+        $("#mcover").hide(); }, 8000);    //8000毫秒是隐藏层
+
+})
+
+</script>
+<div style="display:none">
+<script type="text/javascript">document.write(unescape("%3Cscript src='http://stat.www.gov.cn/webdig.js?z=1' type='text/javascript'%3E%3C/script%3E"));</script>
+<script type="text/javascript">wd_paramtracker("_wdxid=000000000000000000000000000000000000000000")</script>
+</div>
+</body>
+</html>
